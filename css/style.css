@@ -135,13 +135,6 @@ p {
   text-decoration: none;
 }
 
-.brand .logo {
-  width: 2.75rem;
-  height: 2.75rem;
-  flex: none;
-  border-radius: 0.6rem;
-}
-
 .brand:hover {
   color: var(--oak-light);
   background: none;
