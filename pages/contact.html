@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Formular pentru solicitări de informații despre componentele pentru calculatoare.">
+    <title>Contact - BuildPC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;700&amp;family=Patrick+Hand&amp;display=swap">
+    <link rel="icon" href="../assets/images/logo/logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../assets/css/style.css">
+  </head>
+  <body>
+    <a class="skip" href="#continut">Sari la conținut</a>
+
+    <header class="site-header">
+      <div class="wrap bar">
+        <a class="brand" href="../index.html">
+          <img class="logo" src="../assets/images/logo/logo.svg" width="44" height="44" alt="">
+          <span class="word">Build<span class="pc">PC</span></span>
+        </a>
+        <nav class="menu" aria-label="Meniu principal">
+          <a href="../index.html">Acasă</a>
+          <a href="build.html">Construiește calculatorul</a>
+          <a href="catalog.html">Catalog</a>
+          <a href="contact.html" aria-current="page">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="continut" class="wrap">
+      <h1>Formular de contact</h1>
+      <form class="form" action="contact.html" method="get">
+        <div class="field">
+          <label for="nume">Nume și prenume</label>
+          <input id="nume" name="nume" type="text" autocomplete="name" placeholder="Macari Nicolae" required>
+        </div>
+        <div class="field">
+          <label for="email">Adresă de e-mail</label>
+          <input id="email" name="email" type="email" autocomplete="email" placeholder="nicolae.macari@example.com" required>
+        </div>
+        <div class="field">
+          <label for="piesa">Componenta vizată</label>
+          <select id="piesa" name="piesa">
+            <option>Procesor</option>
+            <option>Placă video</option>
+            <option>Placă de bază</option>
+            <option>Memorie RAM</option>
+            <option>Stocare</option>
+            <option>Sursă de alimentare</option>
+            <option>Carcasă</option>
+            <option>Cooler</option>
+          </select>
+        </div>
+        <div class="field wide">
+          <label for="mesaj">Mesaj</label>
+          <textarea id="mesaj" name="mesaj" required></textarea>
+        </div>
+        <button class="submit" type="submit">Trimite mesajul</button>
+      </form>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap foot">
+        <p>Macari Nicolae P-2432 | Studiu Individual nr.2</p>
+        <nav class="foot-menu" aria-label="Meniu subsol">
+          <a href="../index.html">Acasă</a>
+          <a href="build.html">Construiește calculatorul</a>
+          <a href="catalog.html">Catalog</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

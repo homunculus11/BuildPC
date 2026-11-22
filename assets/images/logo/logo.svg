@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="120" height="120">
+  <title>BuildPC</title>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4f6490"/><stop offset="1" stop-color="#27324a"/></linearGradient></defs>
+  <circle cx="32" cy="32" r="31" fill="url(#g)"/>
+  <rect x="20" y="20" width="24" height="24" rx="6" fill="none" stroke="#f8f3e7" stroke-width="3"/>
+  <rect x="28" y="28" width="8" height="8" rx="2" fill="#ff6347"/>
+  <g stroke="#f8f3e7" stroke-width="2.5" stroke-linecap="round">
+    <path d="M26 13v4M32 13v4M38 13v4M26 47v4M32 47v4M38 47v4M13 26h4M13 32h4M13 38h4M47 26h4M47 32h4M47 38h4"/>
+  </g>
+</svg>
