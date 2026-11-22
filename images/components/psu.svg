@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="1200" height="800">
+<defs>
+<filter id="w" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="4"/><feDisplacementMap in="SourceGraphic" scale="4"/></filter>
+<style>
+*{stroke:#27324a;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round}
+.o{fill:#f8f3e7}.q{fill:#efe6d2}.s{fill:#44577a}.t{fill:#ff6347}.k{fill:#27324a}.l{fill:none}.g{stroke:none;fill:#ff6347}
+</style>
+</defs>
+<rect width="600" height="400" fill="#dfe4ee" stroke="none"/>
+<g filter="url(#w)"><rect x="120" y="85" width="320" height="230" rx="12" class="s"/><circle cx="250" cy="200" r="82" class="o"/><ellipse cx="250" cy="159.0" rx="16.400000000000002" ry="32.800000000000004" class="s" transform="rotate(0.0 250 200)"/><ellipse cx="250" cy="159.0" rx="16.400000000000002" ry="32.800000000000004" class="s" transform="rotate(72.0 250 200)"/><ellipse cx="250" cy="159.0" rx="16.400000000000002" ry="32.800000000000004" class="s" transform="rotate(144.0 250 200)"/><ellipse cx="250" cy="159.0" rx="16.400000000000002" ry="32.800000000000004" class="s" transform="rotate(216.0 250 200)"/><ellipse cx="250" cy="159.0" rx="16.400000000000002" ry="32.800000000000004" class="s" transform="rotate(288.0 250 200)"/><circle cx="250" cy="200" r="13.940000000000001" class="t"/><circle cx="250" cy="200" r="58" class="l"/><rect x="360" y="110" width="64" height="44" rx="4" class="o"/><line x1="372" y1="125" x2="412" y2="125"/><line x1="372" y1="140" x2="400" y2="140"/><rect x="360" y="260" width="64" height="34" rx="4" class="t"/><path d="M440 150 C 480 150, 480 105, 520 105" class="l" stroke-width="7"/><rect x="515" y="91" width="40" height="28" rx="4" class="k"/><path d="M440 200 C 480 200, 480 200, 520 200" class="l" stroke-width="7"/><rect x="515" y="186" width="40" height="28" rx="4" class="t"/><path d="M440 255 C 480 255, 480 300, 520 300" class="l" stroke-width="7"/><rect x="515" y="286" width="40" height="28" rx="4" class="k"/></g></svg>

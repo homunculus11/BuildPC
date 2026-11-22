@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="1200" height="800">
+<defs>
+<filter id="w" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="4"/><feDisplacementMap in="SourceGraphic" scale="4"/></filter>
+<style>
+*{stroke:#27324a;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round}
+.o{fill:#f8f3e7}.q{fill:#efe6d2}.s{fill:#44577a}.t{fill:#ff6347}.k{fill:#27324a}.l{fill:none}.g{stroke:none;fill:#ff6347}
+</style>
+</defs>
+<rect width="600" height="400" fill="#dfe4ee" stroke="none"/>
+<g filter="url(#w)"><rect x="70" y="50" width="340" height="76" rx="6" class="s"/><rect x="110" y="62" width="60" height="52" rx="4" class="o"/><rect x="190" y="62" width="60" height="52" rx="4" class="k"/><rect x="270" y="62" width="60" height="52" rx="4" class="o"/><circle cx="88" cy="88" r="6" class="t"/><rect x="410" y="56" width="14" height="5" class="g"/><rect x="410" y="64" width="14" height="5" class="g"/><rect x="410" y="72" width="14" height="5" class="g"/><rect x="410" y="80" width="14" height="5" class="g"/><rect x="410" y="88" width="14" height="5" class="g"/><rect x="410" y="96" width="14" height="5" class="g"/><rect x="410" y="104" width="14" height="5" class="g"/><rect x="410" y="112" width="14" height="5" class="g"/><rect x="110" y="175" width="360" height="185" rx="16" class="s"/><rect x="140" y="200" width="210" height="110" rx="6" class="o"/><line x1="160" y1="230" x2="320" y2="230"/><line x1="160" y1="255" x2="300" y2="255"/><line x1="160" y1="280" x2="280" y2="280"/><rect x="470" y="300" width="50" height="44" rx="4" class="k"/><line x1="478" y1="310" x2="478" y2="334"/><line x1="485" y1="310" x2="485" y2="334"/><line x1="492" y1="310" x2="492" y2="334"/><line x1="499" y1="310" x2="499" y2="334"/><line x1="506" y1="310" x2="506" y2="334"/><line x1="513" y1="310" x2="513" y2="334"/><circle cx="430" cy="225" r="10" class="t"/></g></svg>
